@@ -6,7 +6,7 @@ class oggetto {
     string nome;
     float peso;
     string materiale; //legno,ferro,tungsteno,vetro(pozione)
-    public://check modifica
+    public:
         oggetto(){};
         oggetto(string nome,float peso,string materiale){
             this->nome=nome;
