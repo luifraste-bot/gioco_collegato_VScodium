@@ -5,19 +5,15 @@
     "--clang-tidy",
     "--completion-style=detailed"
   ],
-  "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug",
-      "type": "cppdbg",
+      "type": "lldb",
       "request": "launch",
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "name": "Launch",
+      "program": "${workspaceFolder}/<program>",
       "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb"
-    } 
-  ]
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  
 }
