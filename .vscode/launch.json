@@ -1,19 +1,15 @@
 {
-  "clangd.path": "/usr/bin/clangd",
-  "clangd.arguments": [
-    "--background-index",
-    "--clang-tidy",
-    "--completion-style=detailed"
-  ],
-  "configurations": [
-    {
-      "type": "lldb",
-      "request": "launch",
-      "name": "Launch",
-      "program": "${workspaceFolder}/<program>",
-      "args": [],
-      "cwd": "${workspaceFolder}"
-    }
-  ],
-  
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C++ con LLDB",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/main",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "externalConsole": false
+        }
+    ]
 }
