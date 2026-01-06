@@ -1,8 +1,12 @@
-#include <iostream>
-
-using namespace std;
 
 #include "header.hpp"
+
+// using SOLO dopo gli include
+
+
+//using namespace std;
+
+
 
 
 int main () {
